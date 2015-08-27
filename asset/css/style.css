@@ -1,0 +1,140 @@
+body{
+    background-color: #ecf0f1;
+}
+
+.posting{
+	padding: 15px 15px;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+	margin-bottom: 50px;
+}
+.navbar-inverse{
+	background-color: #AB0000;
+	color: #fff;
+}
+.navbar-inverse .navbar-brand{
+	background-color: #131327;
+	border-radius: 100px;
+	font-family: laksaman, "Segoe UI";
+}
+.navbar-inverse .navbar-brand:hover{
+	background-color: #29294e;
+}
+.navbar-inverse .navbar-brand p a, 
+.navbar-inverse .navbar-brand p a:hover, 
+.navbar-inverse .navbar-brand p a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+.media-heading{
+	font-size: 25px;
+}
+.media-object{
+	border: 1px solid #000;
+	width: 200px;
+}
+.media-body p{
+	font-family: laksaman, "Segoe UI";
+	line-height: 3rem;
+}
+.posting .judul{
+	font-size: 30px;
+	padding: 10px;
+}
+.posting .konten{
+	padding: 10px;
+	line-height: 3rem;
+}
+.posting .gambar img{
+	margin-left: 10px;
+	width: 98%;
+	height: 250px;
+	border: 1px solid #dadada;
+}
+.posting .selanjutnya{
+	text-align: right;
+	padding: 0 10px;
+}
+.posting .tanggal{
+	padding: 5px 10px;
+}
+.media{
+	padding: 10px 0;
+}
+.readmore{
+	color: #fff;
+	display: block;
+}
+.readmore p:hover{
+	background-color: #252538;
+}
+.readmore p{
+	background-color: #3a3a50;
+	width: 120px;
+	padding: 5px 5px;
+}
+.panel .panel-heading{
+	background-color: #3a3a50;
+}
+.panel .panel-title{
+	color: #fff;
+	font-family: laksaman, "Segoe UI";
+}
+
+/* Footer */
+#wrap{
+	min-height: 100%;
+}
+ 
+#main{
+	overflow:auto;
+	padding-bottom:150px; 
+}
+ 
+.footer {
+	position: relative;
+	margin-top: -150px;
+	height: 150px;
+	clear:both;
+	padding-top:20px;
+	background-color: #000;
+}
+
+ul.footer_menu{
+	list-style-type: none;
+	margin-top: 30px;
+	font-family: laksaman, "Segoe UI";
+}
+
+ul.footer_menu li{
+	display: inline;
+	margin-left: 20px;
+}
+ul.footer_menu li:hover, 
+.tahun:hover{
+	color: #fff;
+}
+hr.garis{
+	border-collapse: collapse;
+}
+.tahun{
+	text-align: center;
+	font-size: 12px;
+	font-family: laksaman, "Segoe UI";
+}
+.btn-lg{
+	border: 1px solid #000;
+	border-radius: 20px;
+}
+.navbar-collapse ul.nav li a{
+	color: #fff;
+}
+.navbar-collapse ul.nav li:hover{
+	background-color: #131327;
+}
+@media screen and (max-width: 767px){
+	.media-object{
+		width: 80px;
+		height: 80px;
+	}
+}
