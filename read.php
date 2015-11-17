@@ -11,30 +11,7 @@
     <script src="asset/js/bootstrap.min.js"></script>
 </head>
     <body>
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="navbar-brand animated bounce" id="animasi">
-                        <p><a href="index.php">NulisBareng</a></p>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Registrasi Member</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php require('inc/navbar.php'); ?>
         <div style="margin-top: 80px"></div>
         
         <div class="container">
@@ -43,7 +20,7 @@
                     <div class="col-md-8">
                         <div class="posting">
                             <div class="judul">Lorem Ipsum Dolor</div>
-                            <div class="tanggal">Jum'at, 27 Agustus 2015 | Diposting oleh Administrator | Web Programming</div>
+                            <div class="tanggal"><span class="glyphicon glyphicon-calendar"></span> Jum'at, 27 Agustus 2015 | <span class="glyphicon glyphicon-user"></span> Diposting oleh Administrator | <span class="glyphicon glyphicon-tag"></span> Web Programming</div>
                             <div class="gambar"><img src="asset/img/meme.jpg" alt=""></div>
                             <div class="konten">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga quos, qui. Quam maxime fugit molestias explicabo suscipit, autem assumenda enim distinctio, doloribus debitis voluptate mollitia ad ratione consequuntur quae!</p>
@@ -55,6 +32,9 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minus obcaecati repellendus exercitationem soluta quod laudantium saepe nisi ullam rerum laborum, iusto natus velit. Vel maiores modi fugiat accusantium consequatur!
                                 </p>
                             </div>
+                            <!-- <div class="kotak-komentar" id="komentar">
+                                <textarea name="" id="" cols="50" rows="2"></textarea> <input type="submit" style="vertical-align: top" value="Komentar" class="btn btn-success">
+                            </div> -->
                         </div>
                     </div>
 
@@ -73,7 +53,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="panel-title">
-                                    Artikel Populer
+                                    #Trending Artikel
                                 </div>
                             </div>
                             <div class="panel-body">

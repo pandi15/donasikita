@@ -1,8 +1,8 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donasikita.com | Mari Donasikan Dana Bagi Sekolah</title>
+    <title>Lorem Ipsum Dolor | Nulisbareng.com | Nulis Bareng, Pinter Bareng</title>
     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/animate.css">
@@ -16,18 +16,12 @@ s<!DOCTYPE html>
         
         <div class="container">
             <div class="row">
-                <div class="col-md-8" style="margin: 0 200px;">
-                    <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-8">
                         <div class="posting">
-                            <div class="judul">Registrasi Sekolah</div>
+                            <div class="judul">Login</div>
                             <hr>
                             <form action="" class="form-horizontal">
-                                <div class="form-group">
-                                    <label for="nama" class="col-sm-2 control-label">Nama</label>
-                                    <div class="col-xs-6">
-                                        <input type="text" name="nama" id="nama" class="form-control">
-                                    </div>
-                                </div>
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 control-label">Email</label>
                                     <div class="col-xs-6">
@@ -40,40 +34,59 @@ s<!DOCTYPE html>
                                         <input type="password" name="password" id="password" class="form-control">
                                     </div>
                                 </div>
+                                
                                 <div class="form-group">
-                                    <label for="tanggal" class="col-sm-2 control-label">Tgl Lahir</label>
-                                    <div class="col-xs-6">
-                                        <input type="date" name="tanggal" id="tanggal" class="form-control">
+                                    <label for="" class="col-sm-2 control-label"></label>
+                                    <div class="checkbox col-sm-5">
+                                        <input type="checkbox">Remember me
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="tanggal" class="col-sm-2 control-label">Alamat</label>
-                                    <div class="col-xs-6">
-                                        <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="avatar" class="col-sm-2 control-label">Avatar</label>
-                                    <div class="col-xs-6">
-                                        <input type="file" name="avatar" id="avatar">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="" class="col-sm-1 control-label"></label>
-                                    <div class="checkbox col-sm-8">
-                                        <input type="checkbox">Dengan persyaratan ini berarti anda setuju dengan <mark>persyaratan & ketentuan</mark> yang berlaku.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="" class="col-sm-1"></label>
+                                    <label for="" class="col-sm-2"></label>
                                     <div class="col-sm-8">  
-                                        <input type="submit" class="btn btn-primary" value="Lanjutkan Registrasi">
+                                        <input type="submit" class="btn btn-primary" value="Login">
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
 
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    Artikel Terbaru
+                                </div>  
+                            </div>
+                            <div class="panel-body">
+
+                            </div>
+                        </div>   
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    Artikel Populer
+                                </div>
+                            </div>
+                            <div class="panel-body">
+
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    Top Kontributor
+                                </div>
+                            </div>
+                            <div class="panel-body">
+
+                            </div>
+                        </div>
+
+                        
+                    </div>
                 </div>
             </div>
         </div>

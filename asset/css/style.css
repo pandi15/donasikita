@@ -1,3 +1,13 @@
+@media screen and (max-width: 767px){
+	.media-object{
+		width: 80px;
+		height: 180px;
+	}
+	.media-body h5{
+		text-align: center;
+	}
+}
+
 body{
     background-color: #ecf0f1;
 }
@@ -8,17 +18,23 @@ body{
 	box-shadow: 1px 1px 5px #ccc;
 	margin-bottom: 50px;
 }
+.kotak-komentar{
+	background-color: rgba(58, 58, 80, 0.1);
+	border: 1px solid #dadada;
+	margin: 10px 0;
+	padding: 10px;
+}
 .navbar-inverse{
-	background-color: #AB0000;
+	background-color: #075681; //#AB0000;
 	color: #fff;
 }
 .navbar-inverse .navbar-brand{
-	background-color: #131327;
+	background-color: #D51C4A;//#454574; //#131327;
 	border-radius: 100px;
 	font-family: laksaman, "Segoe UI";
 }
 .navbar-inverse .navbar-brand:hover{
-	background-color: #29294e;
+	background-color: #D51C4A;
 }
 .navbar-inverse .navbar-brand p a, 
 .navbar-inverse .navbar-brand p a:hover, 
@@ -26,16 +42,46 @@ body{
 	color: #fff;
 	text-decoration: none;
 }
-.media-heading{
-	font-size: 25px;
+#home{
+	//text-align: center;
 }
-.media-object{
+#home .media-body{
+	padding-top: 10px;
+}
+#home .media-object{
 	border: 1px solid #000;
 	width: 200px;
 }
-.media-body p{
+#home .media-body p{
 	font-family: laksaman, "Segoe UI";
 	line-height: 3rem;
+}
+.homer .media-body .media-heading{
+	padding-top: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.homer .media-body .glyphicon{
+	padding-top: 1px;
+	font-size: 10px;
+	padding-left: 10px;
+}
+.homer .media-body p, .homer .media-body .readmore{
+	padding: 0 10px;
+}
+.homer .media-body p{
+	font-family: laksaman, "Segoe UI";
+	line-height: 3rem;
+}
+#profile .media-object{
+	border: 1px solid #000;
+	width: 100px;
+	height: 80px;
+}
+#profile .media-body .caption-komentar, #home .media-body .caption-komentar{
+	color: #333;
+	margin-bottom: 10px;
+	margin-top: 5px;
 }
 .posting .judul{
 	font-size: 30px;
@@ -73,12 +119,32 @@ body{
 	width: 120px;
 	padding: 5px 5px;
 }
+.readmore p a,
+.readmore p a:visited,
+.readmore p a:hover{
+	color: #fff;
+	text-decoration: none;
+}
 .panel .panel-heading{
 	background-color: #3a3a50;
 }
 .panel .panel-title{
 	color: #fff;
 	font-family: laksaman, "Segoe UI";
+}
+.panel .panel-body ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.panel .panel-body ul li{
+	color: #3a3a50;
+	padding: 10px 0;
+}
+.panel .panel-body ul li:hover{
+	color: #3a3a50;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 /* Footer */
@@ -122,19 +188,26 @@ hr.garis{
 	font-size: 12px;
 	font-family: laksaman, "Segoe UI";
 }
-.btn-lg{
-	border: 1px solid #000;
-	border-radius: 20px;
-}
 .navbar-collapse ul.nav li a{
 	color: #fff;
 }
 .navbar-collapse ul.nav li:hover{
 	background-color: #131327;
 }
-@media screen and (max-width: 767px){
-	.media-object{
-		width: 80px;
-		height: 80px;
-	}
+.modal .modal-header{
+	background-color: #075681;
+}
+.modal .modal-title{
+	color : #fff;
+}
+.caption-img{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.caption-img-kecil{
+	padding-top: 7px;
+	padding-bottom: 10px;
+	font-family: laksaman;
 }
